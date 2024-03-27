@@ -1,7 +1,7 @@
 # HttpServer
 A simple http server that can recieve and send requests.
 
-#Getting started
+# Getting started
 
 ```
 mkdir build
