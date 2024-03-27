@@ -9,3 +9,4 @@ cd build
 cmake ..
 make
 ```
+To communicate with the server you need to use a third-party application like putty.
