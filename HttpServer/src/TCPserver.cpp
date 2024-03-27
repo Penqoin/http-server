@@ -2,7 +2,7 @@
 
 namespace http
 {
-	TCPserver::TCPserver(std::string ipAddress, WORD version, int port)
+	TCPserver::TCPserver(std::string ipAddress, int port, WORD version)
 		: ipAddress(ipAddress), version(version), port(port)
 	{
 		if (startServer())

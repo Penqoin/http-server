@@ -20,7 +20,7 @@ namespace http
 		SOCKET m_socket;
 		sockaddr_in hint;
 
-		TCPserver(std::string ipAddress = "127.0.0.1", WORD version = MAKEWORD(2, 2), int port = 8000);
+		TCPserver(std::string ipAddress, int port, WORD version = MAKEWORD(2, 2));
 		~TCPserver();
 
 	private:
